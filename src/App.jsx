@@ -49,7 +49,7 @@ const Home = () => {
 
 const App = () => {
   return (
-    <Router basename="/react-website"> {/* Add basename */}
+    <Router basename="SAVTECH"> {/* Add basename */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/header" element={<Header />} />
